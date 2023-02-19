@@ -39,17 +39,13 @@ Create supervised machine learning models to predict credit risk. Using imbalanc
 
 Summary:
 
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
-\
-To see if there is a credit risk we should focus on a model that looks over the least amount of high risk loans. So we need to focus on our recall rate for high risk. 
+There is a summary of the results (2 pt). There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
+
+
+To see if there is a credit risk we should focus on a model that looks over the least amount of high risk loans. So we need to focus on our recall rate for high risk.
+
 The one that scored the highest for recall was the Easy Ensamble Classifying one with 92%. 
 
+We can also recommendt this model due to it's high accuracy and high precesion compared to all the other models. 
 
 
-After taking these two statistics over the others, we can look at the accurary score to get a picture of how well the model performs in general. The models with the highest accuracy scores were:
-
-Easy Ensemble Classify (92.3%)
-SMOTEENN Sampling (68.1%)
-Balanced Random Forest Classifying (64.8%)
-After factoring in these three main statistics, the model that I would recommend to use for predicting high risk loans is the Easy Ensemble Classifying model.
