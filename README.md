@@ -43,16 +43,10 @@ There is a summary of the results (2 pt)
 There is a recommendation on which model to use, or there is no recommendation with a justification (3 pt)
 \
 To see if there is a credit risk we should focus on a model that looks over the least amount of high risk loans. So we need to focus on our recall rate for high risk. 
-The ones that scored the highest for 
+The one that scored the highest for recall was the Easy Ensamble Classifying one with 92%. 
 
 
-Easy Ensemble Classifying (91%)
-SMOTEENN Sampling (76%)
-Naive Random Oversampling (72%)
-While this is the most important statistic that is pulled from this analysis, another important statistic is recall rate for low risk as it shows how many low risk loans are flagged as high risk. Looking through the different models, the ones that scored the highest were:
 
-Balanced Random Forest Classifying (100%)
-Easy Ensemble Classifying (94%)
 After taking these two statistics over the others, we can look at the accurary score to get a picture of how well the model performs in general. The models with the highest accuracy scores were:
 
 Easy Ensemble Classify (92.3%)
