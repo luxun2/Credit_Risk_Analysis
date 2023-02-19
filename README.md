@@ -3,6 +3,7 @@
 The purpose of this analysis was to create a supervised machine learning model that could accurately predict credit risk. In order to complete this task, I used 6 different methods, which are:
 
 Create supervised machine learning models to predict credit risk. Using imbalanced-learn and scikit-learn libraries to create target variables, train the model, and to get accuracy and confusion matrices. The accuracy, precision, and recall scores can be observed below for 
+
 *Naive Random Oversampling, 
 
 *SMOTE Oversampling, 
